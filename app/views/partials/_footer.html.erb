@@ -1,0 +1,69 @@
+<!-- Footer Section Start -->
+<footer>
+  <!-- Footer Area Start -->
+  <section class="footer-Content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="widget">
+            <h3 class="block-title"> Admin Links </h3>
+            <div class="textwidget">
+              <ul class="menu">
+                <li> <%#= link_to icon('pencil-square-o', 'Articles') , controller: 'articles'  %> </li>
+                <li> <%#= link_to icon('briefcase', 'Jobs'),  controller: 'jobs'  %></li>
+                <li>  <%#= link_to icon('users', 'Employees'), controller: 'employees'  %></li>
+                <li> <%#= link_to icon('building', 'Companies'), controller: 'companies' %> </li>
+                <li> <%#= link_to icon('check-circle-o', 'Categories'), controller: 'categories'   %></li>
+                <li> <%#= link_to icon('globe', 'Countries'), controller: 'm_countries'   %> </li>
+                <li> <%#= link_to icon('envelope-o', 'Messages'), controller: 'messageemployees'   %> </li>
+                <li> <%#= link_to icon('file-text-o', 'Aplications'), controller: 'aplicationjobs'   %> </li>
+                <li> <%#= link_to icon('user-secret', 'Users'), controller: 'users'   %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="widget">
+            <h3 class="block-title">Quick Links</h3>
+            <ul class="menu">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">License</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="widget">
+            <h3 class="block-title">Trending Jobs</h3>
+            <ul class="menu">
+              <li><a href="#">Android Developer</a></li>
+              <li><a href="#">Senior Accountant</a></li>
+              <li><a href="#">Frontend Developer</a></li>
+              <li><a href="#">Junior Tester</a></li>
+              <li><a href="#">Project Manager</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="widget">
+            <h3 class="block-title">Follow Us</h3>
+            <div class="bottom-social-icons social-icon">
+              <a class="twitter"><%= icon ("twitter") %></a>
+              <a class="facebook"><%= icon ("facebook") %></a>
+              <a class="youtube" ><%= icon ("youtube") %></a>
+              <a class="linkedin"><%= icon ("linkedin") %></a>
+            </div>
+            <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
+            <form class="subscribe-box">
+              <input type="text" placeholder="Your email">
+              <input type="submit" class="btn-system" value="Send">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+  <!-- Footer area End -->
